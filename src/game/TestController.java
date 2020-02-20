@@ -18,9 +18,9 @@ public class TestController {
         for(int y = 0; y < testBoard.height; y++) {
             for(int x = 0; x < testBoard.width; x++) {
                 if(testBoard.getShip(x,y) == null) {
-                    System.out.print(0);
+                    System.out.print("\u2B1C");
                 } else {
-                    System.out.print('X');
+                    System.out.print("\u2B1B");
                 }
             }
             System.out.println();
