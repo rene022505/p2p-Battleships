@@ -1,0 +1,6 @@
+*.class 
+\nbproject
+\build
+build.xml
+manifest.mf
+src/.gitattributes
